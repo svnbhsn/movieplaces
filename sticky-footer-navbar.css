@@ -1,0 +1,120 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
+    background: black;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: black;
+}
+
+.logo {
+    position: absolute;
+    z-index: 3;
+    top: 4px;
+    left: 15%;
+}
+
+.logo img {
+    height: 140px;
+    width: auto;
+}
+
+.navbar {
+    background: linear-gradient(#1c1b1b, #131212);
+}
+
+#container {
+    background: white url("C:\Users\Flynn\Downloads\MultiMediaEngineering-master\MultiMediaEngineering-master\Acc\texture.png") repeat;
+    min-height: 100%;
+    position: relative;
+}
+
+.header {
+    /*    background: linear-gradient(#1A4A73, #3699D6);*/
+    background: url("img/background.jpg");
+    background-size: cover;
+    border-bottom: 2px solid #1A4A73;
+    height: 200px;
+    line-height: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background: linear-gradient(#1c1b1b, #131212);
+}
+
+#fo_left {
+    color: #8c8686;
+    font-family: 'Lato', arial, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    height: 80px;
+    width: auto;
+    line-height: 80px;
+    float: left;
+    padding-left: 20%;
+}
+
+#fo_right {
+    color: #8c8686;
+    font-family: 'Lato', arial, sans-serif;
+    font-size: 15px;
+    text-align: left;
+    height: 80px;
+    width: auto;
+    line-height: 80px;
+    float: right;
+    padding-right: 20%;
+}
+
+#fo_right ul,
+li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    padding: 0 6px;
+}
+
+#fo_right a {
+    color: #8c8686;
+    font-family: 'Lato', arial, sans-serif;
+    font-size: 12px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 60px 15px 0;
+    color: white;
+    background-color: #232222;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}

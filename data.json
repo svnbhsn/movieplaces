@@ -1,0 +1,52 @@
+{
+    "locations": [
+        {
+            "Name": "Hobbiton",
+            "Ort": "Matamata, Neuseeland",
+            "Webseite": "http://hobbitontours.com/",
+            "Email": "office@hobbitontours.com",
+            "Datum": "Täglich",
+            "Uhrzeit": "09:00 - 16:30"
+        }
+        ,
+        {
+            "Name": "Filmpark Babelsberg",
+            "Ort": "Potsdam, Deutschland",
+            "Webseite": "http://www.filmpark-babelsberg.de/de/",
+            "Email": "info@filmpark.de",
+            "Datum": "Täglich",
+            "Uhrzeit": "10:00 - 18:00"
+        }
+        ,
+        {
+            "Name": "Warner Bros. Studio Tour",
+            "Ort": "Leavesden, England",
+            "Webseite": "http://www.wbstudiotour.co.uk/de",
+            "Email": "contact@wbstudiotour.co.uk",
+            "Datum": "Täglich",
+            "Uhrzeit": "10:00 - 20:00"
+        }
+        ,
+        {
+            "Name": "NYC TV Tour",
+            "Ort": "New York; USA",
+            "Webseite": "http://onlocationtours.com/tour/new-york-tv-movie/",
+            "Email": "contact@onlocationtours.com",
+            "Datum": "Täglich",
+            "Uhrzeit": "10:00 und 13:00"
+        }
+        ,
+
+    ]
+}
+
+
+//  Neue Einträge
+//{
+//    "Name": "",
+//    "Ort": "",
+//    "Webseite": "",
+//    "Email": "",
+//    "Datum": "",
+//    "Uhrzeit": ""
+//},

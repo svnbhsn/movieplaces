@@ -1,0 +1,41 @@
+<h1> Bearbeitung von Drehorten!</h1>
+
+<p>Wir prüfen dann die Bearbeitung und ändern sie dann um.</p>
+
+
+<form action="form_response.php" method="post">
+    <fieldset>
+        <legend>Bearbeitung</legend>
+        <strong>Name des Drehortes:*</strong>
+        <input type="text" name="Name" size="25" maxlength="30" required placeholder="z.B. Hobbingen">
+        <br>
+        <br> <strong>Der Ort (Land):*</strong>
+        <input type="text" name="country" size="25" maxlength="30" required placeholder="z.B. Deutschland">
+        <br>
+        <br> <strong>Email des Tour Anbieters:*</strong>
+        <input type="email" name="email" placeholder="name@example.com">
+        <br>
+        <br> <strong>Tage der Besichtigung:*</strong>
+        <form action="demo_form.asp" method="get">
+            <input type="checkbox" name="vehicle" value="daily"> Täglich
+            <br>
+            <input type="checkbox" name="vehicle" value="monday"> Montag
+            <input type="checkbox" name="vehicle" value="tuesday"> Diestag
+            <input type="checkbox" name="vehicle" value="wednesday"> Mittwoch
+            <input type="checkbox" name="vehicle" value="thursday"> Donnerstag
+            <input type="checkbox" name="vehicle" value="friday"> Freitag
+            <input type="checkbox" name="vehicle" value="saturday"> Samstag
+            <input type="checkbox" name="vehicle" value="sunday"> Sonntag
+            <br>
+            <br> <strong>Uhrzeit der Besichtigung:* </strong> Von:
+            <input type="text" name="timefrom" size="6" placeholder="HH:MM" pattern="(?:[01]|2(?![4-9])){1}\d{1}:[0-5]{1}\d{1}" required> Bis:
+            <input type="text" name="timeto" size="6" placeholder="HH:MM" pattern="^[0-2][0-3]:[0-5][0-9]$" required>
+            <br>
+
+            <button type="reset" class="btn btn-danger"id="2" onclick="falschFill(this.value)">Löschen</button>
+    </fieldset>
+
+    <button class="btn btn-primary" value="submit" id="submit" type="submit" style="margin-top:12px; height: 40px; width:100px;"> Einsenden</button>
+
+
+    </div>
